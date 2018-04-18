@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="35sp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="90dp"
+          />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="35sp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="170dp"/>
+
+        <EditText
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45"
+            android:textSize="35sp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="150dp" />
+
+        <EditText
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MON"
+            android:textSize="35sp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="200dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/txt1"
+        android:text="click" />
+
+
+</RelativeLayout>
